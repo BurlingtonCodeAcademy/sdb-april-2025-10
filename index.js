@@ -29,3 +29,13 @@ let number = 9;
 
 let dividedByThreeResult = dividedByThree(number);
 console.log("The result of dividedByThree is: " + dividedByThreeResult);
+
+function shout(someString) {
+    // work goes here
+    let loudString = someString.toUpperCase();
+    return loudString + "!!!";
+}
+
+let ourLoudString = shout("I love you mommy");
+
+console.log(ourLoudString);
