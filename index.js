@@ -39,3 +39,16 @@ function shout(someString) {
 let ourLoudString = shout("I love you mommy");
 
 console.log(ourLoudString);
+
+// arrow function example
+const add = (a, b) => a + b;
+let total = add(2, 16);
+console.log("The total is: " + total);
+
+// functional expression example
+const addThreeNumbers = function (x, y, z) {
+    return x + y + z;
+}
+
+let sum = addThreeNumbers(1, 2, 3);
+console.log("The sum is: " + sum);
