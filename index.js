@@ -52,3 +52,24 @@ const addThreeNumbers = function (x, y, z) {
 
 let sum = addThreeNumbers(1, 2, 3);
 console.log("The sum is: " + sum);
+
+// some function to do the work
+function fizzBuzz(limit) {
+    // some loop to work through each number one at a time
+    for (let i = 0; i <= limit; i++) {
+        // if equal then log some string
+        // else then log the number
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log("FizzBuzz");
+        } else if (i % 3 === 0) {
+            console.log("Fizz");
+        } else if (i % 5 === 0) {
+            console.log("Buzz");
+        } else {
+            console.log(i)
+        }
+    }
+}
+
+// run fizzbuzz
+fizzBuzz(35);
